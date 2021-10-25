@@ -16,6 +16,7 @@
     "browser-sync": "^2.27.5",
     "del": "^6.0.0",
     "fibers": "^5.0.0",
+    "gsap": "^3.8.0",
     "gulp": "^4.0.2",
     "gulp-imagemin": "^7.0.1",
     "gulp-plumber": "^1.2.1",
