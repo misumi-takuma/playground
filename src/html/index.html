@@ -8,16 +8,19 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <h1>タイトル</h1>
+    <div class="main">
+      <ul>
+        <li class="list" data-src="https://picsum.photos/id/1/1000/800">Dog</li>
+        <li class="list" data-src="https://picsum.photos/id/130/1000/800">
+          Cat
+        </li>
+        <li class="list" data-src="https://picsum.photos/id/237/1000/800">
+          Bird
+        </li>
+      </ul>
+    </div>
 
-    <img
-      width="800"
-      height="533"
-      srcset="./images/800.jpg 800w, ./images/400.jpg 400w"
-      src="./images/800.jpg"
-      sizes="(max-width: 800px) 100vw, 400px"
-      alt="..."
-    />
+    <div class="follower"><img src="" alt="" class="follower-image" /></div>
 
     <script type="text/javascript" src="./js/bundle.js"></script>
   </body>
