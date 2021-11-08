@@ -7,17 +7,26 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body>
-    <h1>タイトル</h1>
+  <body id="body">
+    <div class="wrap">
+      <div
+        class="chouchin-wrap chouchin1 chouchin"
+        data-speed-x="40"
+        data-speed-y="20"
+        data-layer="5"
+      >
+        <img src="./images/kingyo_chouchin.png" alt="..." class="chouchin" />
+      </div>
 
-    <img
-      width="800"
-      height="533"
-      srcset="./images/800.jpg 800w, ./images/400.jpg 400w"
-      src="./images/800.jpg"
-      sizes="(max-width: 800px) 100vw, 400px"
-      alt="..."
-    />
+      <div
+        class="chouchin-wrap chouchin2 chouchin"
+        data-speed-x="20"
+        data-speed-y="10"
+        data-layer="3"
+      >
+        <img src="./images/kingyo_chouchin.png" alt="..." class="chouchin" />
+      </div>
+    </div>
 
     <script type="text/javascript" src="./js/bundle.js"></script>
   </body>

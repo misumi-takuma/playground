@@ -1,6 +1,49 @@
 @use './base.scss';
 
+.wrap {
+  display: block;
+  position: relative;
+}
+
+.chouchin {
+  position: absolute;
+  top: -10px;
+
+  img {
+    transform-origin: top center;
+    animation: swing ease-in-out 2s infinite alternate;
+  }
+}
+
+.chouchin1 {
+  width: 200px;
+  left: 20%;
+  z-index: 5;
+}
+
+.chouchin2 {
+  width: 150px;
+  left: 35%;
+  z-index: 3;
+  filter: blur(2px);
+
+  img {
+    animation-duration: 3s;
+    animation-direction: alternate-reverse;
+  }
+}
+
 img {
   width: 100%;
   height: auto;
+}
+
+@keyframes swing {
+  0% {
+    transform: rotate(8deg);
+  }
+
+  100% {
+    transform: rotate(-8deg);
+  }
 }
